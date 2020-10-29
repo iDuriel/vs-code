@@ -1,0 +1,12 @@
+[
+    {"command": "editor.action.deleteLines",      "key": "ctrl+d",          "when": "editorTextFocus"},
+    {"command": "editor.action.selectHighlights", "key": "ctrl+h",          "when": "editorTextFocus"},
+    {"command": "cursorColumnSelectDown",         "key": "ctrl+shift+down", "when": "editorTextFocus"},
+    {"command": "cursorColumnSelectUp",           "key": "ctrl+shift+up",   "when": "editorTextFocus"},
+
+    {"command": "workbench.action.gotoLine",                "key": "ctrl+l"},
+    {"command": "workbench.action.quickOpen",               "key": "ctrl+g"},
+    {"command": "workbench.action.terminal.new",            "key": "ctrl+shift+t"},
+    {"command": "workbench.action.terminal.toggleTerminal", "key": "ctrl+t"},
+    {"command": "workbench.action.toggleSidebarVisibility", "key": "ctrl+e"},
+]
